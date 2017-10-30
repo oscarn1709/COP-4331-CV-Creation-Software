@@ -25,6 +25,7 @@ CREATE TABLE informaiton (
     email VARCHAR(60),
     phone VARCHAR(12),
     skills VARCHAR (1000),
+    optional VARCHAR (1000),
     PRIMARY KEY (infoid, uid),
     FOREIGN KEY (uid)
         REFERENCES user (uid) ON DELETE CASCADE

@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <title>Your Template Here!</title>
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script>
+          $( function() {
+            $( ".draggable" ).draggable();
+          } );
+        </script>
+    </head>
+    <link rel="stylesheet" href="temp.css">
+    <link rel="stylesheet" href="print.css" media="print">
+    <body>
+
+        <img src="### insert test image here ###" id="photo" class="draggable" />
+        <div id="personal-info" class="draggable">
+            <div id = 'name'>MY FULL NAME</div>
+            <div id = 'address'>123 Main St. Orlando, FL 12345</div>
+            <div id = 'email'>user@email.com</div>
+            <div id = 'phone'>407-555-5555</div>
+        </div>
+        <div id = 'education' class='draggable'>
+            <div id = 'uni1'>
+                <div id = 'u_name1'>Valencia College</div>
+                <div id = 'degree_major1'>AA in Computer Science</div>
+                <div id = 'gpa1'>3.5</div>
+                <div id = 'gradDate1'>December 2015</div>
+            </div>
+                <br>
+            <div id = 'uni2'>
+                <div id = 'u_name2'>Universirty of Central Florida</div>
+                <div id = 'degree_major2'>BS in Computer Science</div>
+                <div id = 'gpa2'>3.5</div>
+                <div id = 'gradDate2'>May 2018</div>
+            </div>
+        </div>
+
+        <div id = 'work' class='draggable'>
+            <div id = 'work1'>
+                <div id = 'company1'>Company #1</div>
+                <div id = 'title1'>Title #1</div>
+                <div id = 'dates1'>April 2014 to April 2015</div>
+                <div id = 'resp1'>Long paragraph</div>
+            </div>
+                <br>
+            <div id = 'work2'>
+                <div id = 'company2'>Company #2</div>
+                <div id = 'title2'>Title #2</div>
+                <div id = 'dates2'>April 2015 to April 2016</div>
+                <div id = 'resp2'>Long Paragraph #2</div>
+            </div>
+                <br>
+            <div id = 'work3'>
+                <div id = 'company3'>Company #3</div>
+                <div id = 'title3'>Title #3</div>
+                <div id = 'dates2'>April 2016 to April 2017</div>
+                <div id = 'resp3'>Long Paragraph #3</div>
+            </div>
+        </div>
+
+        <div id = 'skills' class='draggable'>
+            <div id ='skillTitle'>Related Skills</div>
+            <div id = 'relatedSkills'>Long Paragraph of user's skills</div>
+        </div>
+        
+        <div id = 'optional' class='draggable'>
+            <div id ='optTitle'>Optional Title</div>
+            <div id = 'opt'>Optional Paragraph of user's choice</div>
+        </div>
+    </body>
+</html>

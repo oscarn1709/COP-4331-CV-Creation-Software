@@ -1,0 +1,117 @@
+{
+  "basics": {
+    "name": "John Doe",
+    "label": "Student",
+    "picture": "",
+    "email": "johndoe@knights.ucf.edu",
+    "phone": "555-555-5555",
+    "website": "johndoe.com",
+    "summary": "John Doe is a UCF senior on track to graduate Fall of 20XX. Currently interning at Microsoft.",
+    "location": {
+      "address": "123 Somewhere Ave",
+      "postalCode": "FL 32792",
+      "city": "Orlando",
+      "countryCode": "US",
+      "region": "Florida"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "johndoe",
+        "url": "https://twitter.com"
+      },
+      {
+        "network": "Github",
+        "username": "johndoe",
+        "url": "https://soundcloud.com/dandymusicnl"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Microsoft",
+      "position": "Intern",
+      "website": "https://microsoft.com",
+      "startDate": "2013-12-01",
+      "endDate": "",
+      "summary": "Microsoft Corporation, incorporated on September 22, 1993, is a technology company. The Company develops, licenses, and supports a range of software products, services and devices. The Company's segments include Productivity and Business Processes, Intelligent Cloud and More Personal Computing.",
+      "highlights": [
+        "Build an algorithm for artist to detect if their music was violating copy right infringement laws"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "University Of Central Florida",
+      "position": "Green House Atendee",
+      "website": "ucf.edu",
+      "startDate": "2016-01-01",
+      "endDate": "",
+      "summary": "Help out arboretum managers by attending to the planets inside of the greenhouse",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Central Florida",
+      "area": "Computer Science",
+      "studyType": "Bachelor",
+      "startDate": "2013-06-01",
+      "endDate": "",
+      "gpa": "4.0",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Object Oriented Programming",
+      "level": "Intermediate",
+      "keywords": [
+        "Java",
+        "CSS",
+        "Javascript"
+      ]
+    },
+    {
+      "name": "Compression",
+      "level": "Master",
+      "keywords": [
+        "Mpeg",
+        "MP4",
+        "GIF"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "C",
+      "fluency": "Master"
+    },
+    {
+      "language": "C++",
+      "fluency": "Intermediate"
+    },
+    {
+      "language": "JavaScript",
+      "fluency": "Intermediate"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": []
+    },
+    {
+      "name": "",
+      "keywords": []
+    }
+  ],
+  "references": [
+    {
+      "name": "Arboretum Person",
+      "reference": "John Doe is pretty awesome. He is good at making sure plants to do not die."
+    }
+  ]
+}
